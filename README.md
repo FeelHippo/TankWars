@@ -1,7 +1,7 @@
 # DEMO
 [Watch the most epic tank battle, guess who won!](https://ttprivatenew.s3.amazonaws.com/pulse/feel-hippo/attachments/13997336/TankBattle.mp4)
 -----------------------------------------------------
-Update:
+Update, I have improved the navigation of the tank, it does not hit the walls now:
 [The survival of the tankest](https://ttprivatenew.s3.amazonaws.com/pulse/feel-hippo/attachments/13999219/Morning.mp4)
 
 ## Arena
