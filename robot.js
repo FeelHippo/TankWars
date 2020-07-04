@@ -26,7 +26,7 @@ async function main(tank) {
     // target the nearest enemy
     degree = right < left ? degree + 10 : degree - 10;
     // if you find one, chase him like a panther
-    await tank.drive(degree, 65);
+    await tank.drive(degree, 45);
     // FIRE!
     await tank.shoot(degree, 500);
     // the wall!
