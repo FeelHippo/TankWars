@@ -26,7 +26,7 @@ async function main(tank) {
     // target the nearest enemy
     degree = right < left ? degree + 10 : degree - 10;
     // if you find one, chase him like a panther
-    await tank.drive(degree, 45);
+    await tank.drive(degree, 65);
     // FIRE!
     await tank.shoot(degree, 500);
     // the wall!
@@ -43,7 +43,7 @@ async function main(tank) {
       await tank.drive(90, 50);
     }
     if (xCoordinate >= 700) {
-      await tank.drive(180, 49);
+      await tank.drive(180, 50);
     } else if (yCoordinate <= 300) {
       await tank.drive(0, 50);
     }
@@ -67,8 +67,6 @@ async function main(tank) {
       await tank.shoot(degree, distance);
       // where are you!
       await radarChase(tank, degree);
-    } else {
-      await dodgeWall(tank);
     }
   }
 }
